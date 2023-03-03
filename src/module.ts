@@ -16,7 +16,8 @@ export default defineNuxtModule<ModuleOptions>({
 
     addComponent({
       name: 'LottiePlayer',
-      filePath: resolve(runtimeDir, 'components', 'LottiePlayer')
+      global: true,
+      filePath: resolve(runtimeDir, 'components', 'LottiePlayer'),
     })
   }
 })

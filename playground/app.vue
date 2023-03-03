@@ -1,5 +1,5 @@
 <script setup>
-import data from './assets/pacman.json'
+import data from './assets/wgr_Prestation_strategiedecomm.json'
 </script>
 
 <template>
@@ -9,7 +9,7 @@ import data from './assets/pacman.json'
       :data="data"
       :loop="true"
       :autoplay="true"
-    />    
+    />
   </section>
 </template>
 
