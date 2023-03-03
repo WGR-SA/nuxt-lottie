@@ -1,7 +1,7 @@
 {
   "name": "@wgr-sa/nuxt-lottie",
   "description": "Lottie player for Nuxt",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "repository": "https://github.com/WGR-SA/nuxt-lottie.git",
   "author": "jeanvier",
   "license": "MIT",

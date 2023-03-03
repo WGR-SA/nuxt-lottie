@@ -1,5 +1,7 @@
 <script setup>
 import data from './assets/wgr_Prestation_strategiedecomm.json'
+
+
 </script>
 
 <template>
@@ -12,4 +14,3 @@ import data from './assets/wgr_Prestation_strategiedecomm.json'
     />
   </section>
 </template>
-
