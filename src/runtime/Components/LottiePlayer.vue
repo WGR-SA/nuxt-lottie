@@ -16,8 +16,7 @@ if ( typeof config.data === 'string' ) {
   const { data } = await useFetch(config.data, {
     key: config.data,
   })
-  animationData.value = data.value
-  
+  animationData.value = data.value as Object
 }
 
 onMounted(() => {
